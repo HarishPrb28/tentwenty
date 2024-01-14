@@ -1,0 +1,39 @@
+section#content {
+  height: 250px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+  margin: 50px auto;
+  flex-direction: column;
+  @media screen and (max-width: 968px) {
+    height: auto;
+    margin-top: 100px;
+    width: 80%;
+  }
+  h1 {
+    margin-bottom: 40px;
+    color: #000;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1px;
+    @media screen and (max-width: 968px) {
+      line-height: 50px;
+    }
+  }
+  p {
+    color: #7a7777;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
